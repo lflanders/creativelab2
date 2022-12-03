@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Food/ Recipes</title>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light" id="navbar"> 
+  <a class="navbar-brand" href="frontpage.html">Here's what you need.</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Schedule</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Plans</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="food.html">Food API</a>
+      </li>
+    </ul>
+  </div>
+</nav> 
+    
+<div class="header">
+    <h1>Search here for recipes!</h1>
+</div>
+
+ <form>
+    <div id="search">
+      <label>Enter name of meal:</label>
+      <input id="mealInput" type="text"></input><br/>
+      <input id="mealSubmit" type="submit" value="Submit"></input><br/>
+       (typing in the first letter will pull up a list of recipe options): <span id="txtHint">Empty</span><br/>
+    </div>
+  </form>
+  
+  <div id="page">
+  
+    <div id="allRecipe">
+      <div id="allIngredients">
+          <h2>Ingredients Needed</h2>
+        <div id="anotherdiv">
+          <div id="ingredientResults">
+          </div>
+          <div id="measurementResults">
+        	</div>
+      	</div>
+    	</div>
+    	<div id="allInstructions">
+    	  <h2>Recipe Instructions</h2>
+      	<div id="instructionResults">
+      	</div>
+    	</div>
+  	</div>
+	</div>
+	
+	<div class="footer">
+	  <h3> Pair Programming for Creative Project #2</h3>
+    <p> Lauren and Natalie </p>
+	</div>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+  <script text="type/javascript" src="script.js">
+  </script>
+
+</body>
+
+</html>

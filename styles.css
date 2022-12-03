@@ -1,0 +1,77 @@
+#navbar {
+    background-color: #C8D4D3;
+}
+
+.navbar-brand {
+  font-family: apple chancery;
+}
+
+.nav-link {
+  font-family: tahoma;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background-image: url('https://images.pexels.com/photos/2101187/pexels-photo-2101187.jpeg?auto=compress&cs=tinysrgb&w=800');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+
+h1 {
+    padding: 20px;
+    background-color: white;
+    opacity: 80%;
+    font-family: serif, georgia;
+    color: #693e3a;
+}
+
+.divder {
+  padding: 60px;
+  background-color: white;
+  text-align: center;
+}
+
+h2 {
+  padding: 20px;
+  background-color: #C8D4D3;
+  font-family: serif, georgia;
+  color: #693e3a;
+  text-align: center;
+}
+
+.style-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+.image {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.clothing-link {
+  padding-left: 140px;
+  padding-right: 140px;
+}
+
+body {
+  background:	#fceee9;
+}
+
+.footer {
+  padding: 60px;
+  text-align: center;
+  background: #C8D4D3;
+  color: #803c00;
+}
+
+form {
+  padding: 60px;
+  text-align: center;
+}
